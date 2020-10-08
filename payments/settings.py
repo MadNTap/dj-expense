@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import os
 from pathlib import Path
 from django.contrib import messages
+import django_heroku
 
 # import environ
 
@@ -180,3 +181,6 @@ LOGOUT_URL= 'logout'
 LOGOUT_REDIRECT_URL= 'login'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+# Configure Django App for Heroku.
+django_heroku.settings(locals())
