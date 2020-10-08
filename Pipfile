@@ -4,16 +4,17 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+flake8 = "*"
 
 [packages]
 django = "*"
 pillow = "*"
-django-crispy-forms = "*"
-psycopg2-binary = "*"
-djangorestframework = "*"
+django-heroku = "*"
+gunicorn = "*"
 validate-email = "*"
 six = "*"
-django-environ = "*"
+coverage = "*"
+codecov = "*"
 
 [requires]
 python_version = "3.8"
