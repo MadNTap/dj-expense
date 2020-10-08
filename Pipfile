@@ -16,6 +16,7 @@ six = "*"
 coverage = "*"
 codecov = "*"
 djangorestframework = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.8"
